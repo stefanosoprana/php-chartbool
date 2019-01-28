@@ -9,9 +9,8 @@
   <body>
     <div class="container">
 
-      <?php include 'data.php'; ?>
-      <canvas id="grafico" data-database="<?php echo $database ?>"></canvas>
-      
+      <canvas id="grafico"></canvas>
+
     </div>
     <script src="main.js" charset="utf-8"></script>
   </body>
