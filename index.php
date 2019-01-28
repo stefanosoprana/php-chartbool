@@ -8,9 +8,8 @@
   </head>
   <body>
     <div class="container">
-
       <canvas id="grafico"></canvas>
-
+      <canvas id="grafico2"></canvas>
     </div>
     <script src="main.js" charset="utf-8"></script>
   </body>
