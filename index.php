@@ -8,10 +8,34 @@
   </head>
   <body>
     <div class="container">
-      <canvas id="grafico"></canvas>
-      <canvas id="grafico2"></canvas>
-      <canvas id="grafico3"></canvas>
+      <?php
+
+        $level_user = $_GET["level"];
+
+        if ($level_user == "guest") { ?>
+
+          <canvas id="grafico"></canvas>
+
+        <?php }
+        elseif ($level_user == "employee") { ?>
+
+          <canvas id="grafico"></canvas>
+
+          <canvas id="grafico2"></canvas>
+
+        <?php }
+        elseif ($level_user == "clevel") { ?>
+
+          <canvas id="grafico"></canvas>
+
+          <canvas id="grafico2"></canvas>
+
+          <canvas id="grafico3"></canvas>
+
+        <?php } ?>
+
+
+      <script src="main.js" charset="utf-8"></script>
     </div>
-    <script src="main.js" charset="utf-8"></script>
   </body>
 </html>

@@ -87,6 +87,9 @@ $(document).ready(function(){
         return result;
       };
 
+      var level_guest = (database.fatturato.access);
+      console.log(level_guest);
+
       line($('#grafico'), type_line, mesi, data_line);
 
       pie($('#grafico2'), type_pie, get_name_pie(), get_data_pie());
