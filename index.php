@@ -10,6 +10,7 @@
     <div class="container">
       <canvas id="grafico"></canvas>
       <canvas id="grafico2"></canvas>
+      <canvas id="grafico3"></canvas>
     </div>
     <script src="main.js" charset="utf-8"></script>
   </body>
